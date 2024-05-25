@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col w-screen h-screen justify-center items-center bg-zinc-100">
+    <h1 class="text-4xl text-center font-bold my-5 text-pink-500">Product Buy Form</h1>
+    <div class="shadow-xl gap-5 rounded-xl p-[30px] pr-0 pb-0 pt-0 flex flex-row bg-white">
+      <div class="flex flex-col gap-4 py-[30px]">
+        <div>
+          <div class="flex flex-col gap-0">
+            <h1 class="font-bold font-sans  text-zinc-500">
+              Card Number
+            </h1>
+
+            <div class="border border-b flex border-0 border-black w-full flex flex-row gap-5 justify-between">
+
+              <input type="text" placeholder="1234 1234 1234 1234" class="outline-none bg-transparent">
+
+              <img src="./pngwing.com (2).png" width="40" alt="Master Card logo">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div class="flex gap-5">
+              <div class="flex flex-col w-full">
+
+                <h1 class="font-bold font-sans text-zinc-500 mb-1">
+                  MM YY
+                </h1>
+
+                <input type="date" placeholder="1234 1234 1234 1234"
+                  class="outline-none border border-b border-0 border-black w-full">
+
+              </div>
+
+              <div class="flex flex-col w-full mt-0.5">
+                <h1 class="font-bold font-sans text-zinc-500 mb-1">
+                  CVE Code
+                </h1>
+                <input type="text" placeholder="1 2 3 " class="outline-none
+                border border-b border-0 border-black w-full justify-between">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+          <div class="flex flex-col gap-0">
+            <!-- Top Text Label -->
+            <label class="font-medium text-lg text-zinc-500">Name</label>
+
+            <div class="flex items-center justify-between">
+              <!-- Input -->
+              <input type="text" placeholder="Enter your Name" class="p-2 rounded-lg border-b-2">
+              <!-- Button -->
+              <button class="rounded-full shadow-lg bg-pink-500 w-fit text-white px-6 py-2 font-bold text-md">Pay Now</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="bg-pink-400 text-bold p-[30px] flex justify-end flex-col text-white text-center">
+          <img src="./pngwing.com.png" alt="" class="w-[300px] absolute top-[230px] right-[100px]">
+          <p class="font-bold">Total</p>
+          <p class="font-bold text-3xl"><span class="text-sm">$</span>1.099<samp class="text-sm">.00</samp></p>
+        </div>
+      </div>
+</body>
+
+</html>
